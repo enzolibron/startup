@@ -1,46 +1,12 @@
-body,
-html {
-  height: 100vh;
-  font-family: 'Montserrat', sans-serif;
-  color: #f8f9fa;
-  background: url('header.jpg') no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
+html, body { 
+    height: 100%;
+    background: url("artistic-cityscape-4k-71__1651708859_112.201.97.178.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
 
-.btn {
-  height: fit-content;
-  text-transform: uppercase;
-  color:#f8f9fa;
-}
-
-.btn-outline-light {
-  background-color: #F05F44;
-  border-color: #F05F44;
-}
-
-.btn-outline-light:hover {
-  background-color: #ef9787;
-  border-color: #F05F44;
-  color:#f8f9fa;
-}
-
-hr {
-  border-color: #F05F44;
-  border-width: 1.5px;
-  max-width: 50px;
-  margin-bottom: .5rem;
-}
-
-
-span:hover {
-  transform: scale(1.1);
-  
-}
-
-span {
-  transition: 1s;
-  padding-bottom: 5rem;
-}
+  .embed-responsive-item {
+    padding: 0;
+  }
