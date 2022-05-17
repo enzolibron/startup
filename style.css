@@ -1,12 +1,19 @@
-html, body { 
-    height: 100%;
-    background: url("artistic-cityscape-4k-71__1651708859_112.201.97.178.jpg") no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
+body {
+  height: 100%;
+  width: 100%;
+  background-color: ivory;
+  margin: 0px;
+  padding: 0px;
+}
 
-  .embed-responsive-item {
-    padding: 0;
-  }
+.container {
+  padding: 1rem;
+  gap: 1rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+img {
+  max-width: 100%;
+}
