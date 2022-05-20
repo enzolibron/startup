@@ -1,7 +1,6 @@
 body {
   height: 100%;
   width: 100%;
-  background-color: ivory;
   margin: 0px;
   padding: 0px;
 }
@@ -12,8 +11,9 @@ body {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  width:50%;
 }
 
 img {
-  max-width: 100%;
+  max-width: 250px;
 }
